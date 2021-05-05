@@ -1,0 +1,412 @@
+.border{
+	border:solid .4px #6f6f6f;
+	box-sizing: border-box;
+}
+@media screen and (max-width: 1200px){
+	/*tamaño del slider*/
+	#carouselExampleControls, .carousel-item, .carousel-inner {
+	height: 500px;
+	}
+	.premicia{
+			margin: 240px auto 0 auto;
+	}
+	/*tamaño del slider*/
+
+	/*area apps*/
+	.areaCenter{
+		width: 100%;
+	}
+	/*Area Info*/
+	.areaInfoCenter{
+		width: 100%;
+	}
+	.infoSup h2{
+		font-size: 35px;
+		margin-top: 30px;
+	}
+	.infoSup p{ 
+		padding: 0 100px;
+		font-size: 12px;
+ 	}
+ 	.tittleInfo{
+		font-family: "Montserrat-Black"; 
+		font-size: 12px;
+		line-height: 0px;
+	}
+ 	.infoP{
+ 		line-height: 15px;
+		font-size: 12px;
+		padding: 0 25px;
+	}
+}
+@media screen and (max-width: 1100px){
+	.movieList{ width: 100%; }
+	.appCenter{ width: 100%; height: 90%; margin: auto; color: #fff;}
+
+
+}
+@media screen and (max-width: 1000px){
+		/*Precios*/
+		.packetSection{ width: 100%; margin:auto;}
+}
+@media screen and (max-width: 952px){
+	header{
+		height: 60px;
+	}
+	/*formulario*/
+	.Abody{ margin-top: 0; }
+	/*fin formulario*/
+	/*tamaño slider*/
+	#carouselExampleControls, .carousel-item, .carousel-inner {
+	height: 355px;
+	}
+	.premicia{
+			margin: 240px auto 0 auto;
+	}
+	/*tamaño slider*/
+	/*formulario*/
+	.appSection{ padding:85px 15px; }
+}
+@media screen and (max-width: 900px){
+	/*tamaño slider*/
+	#carouselExampleControls, .carousel-item, .carousel-inner {
+	height: 390px;
+	}
+	.premicia{
+			margin: 230px auto 0 auto;
+	}
+	/*tamaño slider*/
+
+	/*lista peliculas*/
+	.movieListE{display: none;}
+
+	/*footer*/
+	.footerMain h3, .footerMain p{ font-size: 15px; margin-top: 30px;}
+	.footerMain h3{ font-family: "Montserrat-Black"; }
+	/*formulario*/
+	.appSection{ padding:85px 0px; }
+}
+@media screen and (max-width: 858px){
+	/*AQUI CAMBIA EL MENU HAMBURGUESA*/
+
+	/*tamaño slider*/
+	#carouselExampleControls, .carousel-item, .carousel-inner {
+	height: 355px;
+	}
+	.premicia{
+			margin: 170px auto 0 auto;
+	}
+	/*tamaño slider*/
+	.menu{
+			height: 60px;
+			display: flex;
+			justify-content: space-between;
+			z-index: 2000;
+	}
+	.btn_menu{
+		display: inline-flex;
+		margin:10px 0 0 0;
+		z-index: 2001;
+
+	}
+	#active{ border:none; background-color: #38004a; width: 110%; overflow: hidden; margin-left: -10px;}
+	.menu{
+		height: 60px;
+	}
+	.btn_menu{
+		display: inline-flex;
+	}
+	.menu_items{
+		position: fixed;
+		width: 100%;
+		background-color: rgba(110,0,146,.95);
+		top: -100vh;
+		text-align: center;
+		transition: all .4s;
+		flex-direction: column;
+		padding: 0;
+		margin-left: -15px;
+	}
+	.menu_items li{
+		
+	}
+	.menu_items li a{
+		color:#fff;
+	}
+	.menu_items li a:hover{
+		color: #e6e6e6;
+		border:none;
+		background-color: rgba(59,59,59,.7);
+	}
+	.logo{
+		width: 50px;
+		margin:5px 0 0 0;
+	}
+		/*Apps*/
+		.areaApps{
+			height: 750px;
+		}
+		.phone{
+			width: 100%;
+			height: 250px;
+		}
+		.firetv{
+			width: 100%;
+			height: 250px;
+		}
+		.ordenador{
+			width: 100%;
+			height: 250px;
+		}
+	/*Fin apps*/
+
+	/*precios*/
+	.txtPacketEnc{ font-family: "Montserrat-Black"; font-size: 34px; }
+	.txtPacketEncDesc{ line-height: 5px; font-size: 16px; }
+	.cost1{margin:15px 0;}
+
+	/*PAQUETES SECTION*/
+	.bodyPaquetes{width: 100%;height: 650px; background-color: #18141b; margin-bottom: -50px; padding-top: 50px;}
+	.paquetesE{ width: 100%; height: 80%; margin:auto; }
+	.paquetesSection{ width: 50%; height: 100%; float: left;  padding:25px;}
+	.otherBox{ display: none; }
+	.packetSecA, .packetSecB {border-radius: 0px;}
+	.paquetesSection:hover{ border-radius: 0px; }
+
+}
+@media screen and (max-width: 750px){
+		/*tamaño slider*/
+		#carouselExampleControls, .carousel-item, .carousel-inner {
+		height: 305px;
+		}
+		.premicia{
+			margin: 145px auto 0 auto;
+		}
+	/*tamaño slider*/
+	/*formulario*/
+	.logosapp{ display: none; }
+	.Abody{ margin-top: 0; }
+}
+@media screen and (max-width: 700px){
+		/*tamaño slider*/
+		#carouselExampleControls, .carousel-item, .carousel-inner {
+		height: 250px;
+		}
+		.premicia{
+			margin: 120px auto 0 auto;
+		}
+	/*tamaño slider*/
+}
+@media screen and (max-width: 650px){
+	/*tamaño slider*/
+		#carouselExampleControls, .carousel-item, .carousel-inner {
+		height: 255px;
+		}
+		.premicia{
+			margin: 100px auto 0 auto;
+		}
+	/*tamaño slider*/
+
+		/*formulario*/
+		.formulario{ width:100%; height: 100%; margin: auto; padding: 20px 40px;  }
+
+		/**/
+		/*Area Info*/
+		.areaInfo{ width: 100%; height: 750px; margin-top: 50px; background:#1e1423;}
+		.areaInfoCenter{
+		width: 100%;
+		height: 350px;
+		}
+		.infoSection { width: 100%; height: 100%; border-bottom: solid .4px #6f6f6f; margin-bottom: 20px;}
+		.infoSup h2{
+		font-size: 35px;
+		margin-top: 30px;
+		}
+		.infoSup p{ 
+		padding: 0 100px;
+		font-size: 12px;
+ 		}
+ 		.tittleInfo{
+		font-family: "Montserrat-Black"; 
+		font-size: 12px;
+		line-height: 0px;
+		}
+ 		.infoP{
+ 		line-height: 15px;
+		font-size: 12px;
+		padding: 0 25px;
+		}
+
+		/*PRECIOS*/
+
+		.txtPacketEnc{ font-family: "Montserrat-Black"; font-size: 25px; }
+		.txtPacketEncDesc{ line-height: 5px; font-size: 12px; }
+ 
+		.packetPlanTittle{ font-size: 18px;}
+		.packetCost{ font-size: 62px; }
+		/*PAQUETES SECTION*/
+
+		.bodyPaquetes{width: 100%;height:880px; background-color: #18141b; margin-bottom: 0px; padding-top: 50px;}
+		.paquetesE{ width: 100%; height: 50%; margin:auto; }
+		.paquetesSection{ width: 100%; height: 100%; float: left;  padding: 15px 50px;}
+		.paquetesSectionInt{ width: 100%; height: 100%;  }
+
+		/*formulario*/
+		.appSection{ padding: 150px 0;}
+		/*help section*/
+		.bodyH{
+			height: 1230px;
+		}
+
+}
+@media screen and (max-width: 600px){
+	/*tamaño slider*/
+		#carouselExampleControls, .carousel-item, .carousel-inner {
+		height: 220px;
+		}
+		.premicia{
+			margin: 60px auto 0 30px;
+		}
+		h1{font-size: 25px;}
+		h2{font-size: 15px;}
+	/*tamaño slider*/
+	/*Apps*/
+		.areaApps{
+			height: 750px;
+		}
+		.phone{
+			width: 100%;
+			height: 250px;
+		}
+		.firetv{
+			width: 100%;
+			height: 250px;
+		}
+		.ordenador{
+			width: 100%;
+			height: 250px;
+		}
+	/*Fin apps*/
+	/*info*/
+	.infoSup h2{
+		font-size: 25px;
+		margin-top: 15px;
+	}
+	.infoSup p{ 
+		padding: 0 80px;
+		font-size: 11px;
+ 	}
+ 	.footerMain h3, .footerMain p{ display: inline-block; font-size: 14px; margin-top: 30px; line-height: 5px;}
+
+ 	/*formulario*/
+ 	.apptxtTittle{ font-size: 16px; }
+}
+@media screen and (max-width: 555px){
+
+	/*pagos*/
+	.packetPlanTittle{ font-size: 14px;}
+	.packetAE{ padding: 25px 15px;}
+	.packetBE{ padding: 25px 15px;}
+	/*footer*/
+		.footerMain h3, .footerMain p{ font-size: 12px; margin-top: 25px; line-height: 2px;}
+		/*formulario*/
+	.appSection{ width: 100%; padding:25px 20px; height: 300px;}
+	.Abody{  height: 950px; margin-top: 0;}
+
+	/*helpAsection*/
+		.bodyH{
+			height: 1300px;
+		}
+		.logosappFire{margin-top: -50px; display: none;}
+		.oculto{ display: inline; }
+}
+
+@media screen and (max-width: 500px){
+	/*tamaño slider*/
+		#carouselExampleControls, .carousel-item, .carousel-inner {
+		height: 200px;
+		}
+		.premicia{
+			margin: 55px 0 0 -15px;
+		}
+		.premicia h1{ font-size: 20px; margin:0; margin-top: 25px; }
+		.premicia h2{ font-size: 15px; margin:0; display: none;}	
+		/*formulario*/
+		.Pbody{ width: 100%; height: 1000px; background-color: #18141b;  margin-bottom: 0px; padding:60px 0; text-align: center; color: #fff;}
+
+	/*tamaño slider*/
+	/*footer*/
+		.apptxtLinks{ font-size: 14px; }
+	/*Formulario*/
+	.app1{ background-image: url('../img/smartphone.jpg'); background-size: 100% 100%;}
+	.app2{ background-image: url('../img/FIRETV.jpg'); background-size: 100% 100%;}
+	.app3{ background-image: url('../img/ordenador.jpg'); background-size: 100% 100%;}
+
+
+}
+@media screen and (max-width: 485px){
+	.packetSectionE{ height: 250px;}
+	.packetTittle{ display: none;}
+	.packetAE{ padding: 0px; height: 250px;}
+	.packetBE{ padding: 0px; height: 250px;}
+
+	.txtPacketEnc{  }
+	.txtPacketEncDesc{  }
+
+	.packetPlanTittle{}
+	.packetCost{ font-size: 40px; }
+	.packetDuration{}
+	.packetDescription{ display: none; }
+	.getPacket{ }
+	.bodym{ height: 2200px; }
+
+}
+@media screen and (max-width: 430px){
+	/*tamaño slider*/
+		#carouselExampleControls, .carousel-item, .carousel-inner {
+		height: 150px;
+		}
+		.premicia{
+			margin: 5px 0 0 15px;
+		}
+		/*tamaño slider*/	
+		.packetSectionE{ margin-bottom: 100px; }
+	/*precios*/
+		.packetSectionE{ height: 150px;}
+		.packetTittle{ display: none;}
+		.packetAE{ padding: 0px; height: 200px;}
+		.packetBE{ padding: 0px; height: 200px;}
+
+		.txtPacketEnc{  }
+		.txtPacketEncDesc{  }
+
+		.packetPlanTittle{}
+		.packetCost{ font-size: 40px; }
+		.packetDuration{}
+		.packetDescription{ display: none; }
+		.getPacket{ }
+
+		.cost1{margin:8px 0;}
+
+		.premicia{		
+			margin-left: -25px;
+		}
+		.bodyH{height: 1350px;}
+		/*formulario*/
+		.Pbody{ width: 100%; height: 1100px; background-color: #18141b;  margin-bottom: 0px; padding:60px 0; text-align: center; color: #fff;}
+		/*apps section*/
+
+}
+@media screen and (max-width: 400px){
+	.favorito, .sharebtn{ display: none; }
+	.btn_play{ padding: 10px 30px; font-size: 12px;}
+	.premicia{ width: 100%; height: 100%; margin-left: 10px; margin-top: 55px;}
+	.premicia h1{ font-size: 15px;}
+
+	.packetPlanTittle{ font-weight: bold; text-transform: uppercase; font-size: 12px;}
+	.footerMain{ height: 140px;}
+
+	.areaInfo{  height: 950px; }
+	.areaInfoCenter{ height:450px;}
+	.bodyH{height: 1400px;}
+}
